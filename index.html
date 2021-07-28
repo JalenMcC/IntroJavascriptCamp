@@ -11,6 +11,7 @@
 
     html {
         background-color: rgb(154, 146, 230);
+        border: 20px dotted lime;
     }
 
     body {
@@ -46,17 +47,28 @@
         font-size:x-large;
         border: 10px double yellowgreen;
         color: white;
+        text-shadow: 3px 3px 1px black;
     }
 
     #input {
         font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: x-large;
+        font-size: xx-large;
         color: white;
         letter-spacing: 2px;
-        border: 20px dotted lime;
+        text-shadow: 3px 3px 1px black;
     }
 
+    .story {
+        border:10px solid limegreen;
+        background: #4834fe;
+        color: white;
+    }
     
+    .dot {
+        font-size: x-large;
+        color: white;
+        text-shadow: 3px 3px 1px black;
+    }
     </style>
   </head>
 
@@ -66,8 +78,8 @@
       <input id="customname" type="text" placeholder="">
     </div>
     <div>
-      <label for="us">US</label><input id="us" type="radio" name="ukus" value="us" checked>
-      <label for="uk">UK</label><input id="uk" type="radio" name="ukus" value="uk">
+      <label for="us" class="dot">US</label><input id="us" type="radio" name="ukus" value="us" checked>
+      <label for="uk" class="dot">UK</label><input id="uk" type="radio" name="ukus" value="uk">
     </div>
     <div>
       <button class="randomize" id="generate">Generate random story</button>
@@ -75,8 +87,6 @@
     <!-- Thanks a lot to Willy Aguirre for his help with the code for this assessment -->
     <p class="story"></p>
     
-    <!--<img src="images/RobotSketch.JPG"\>-->
-    <a class="try"></a>
     <script src="main.js"></script>
   </body>
 </html>
