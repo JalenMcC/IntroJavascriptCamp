@@ -46,18 +46,7 @@ else {
     alert('Oh no!');
 }
 */
-/*
-let myImage = document.querySelector('img');
 
-myImage.onclick = function() {
-    let mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/RobotSketch.JPG') {
-      myImage.setAttribute('src','images/RobotSketch.JPG');
-    } else {
-      myImage.setAttribute('src','images/RobotSketch.JPG');
-    }
-}
-*/
 //Part 1
 const customName = document.getElementById('customname');
 const randomize = document.querySelector('.randomize');
